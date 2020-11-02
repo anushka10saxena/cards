@@ -1,0 +1,544 @@
+body {
+    background-color: #fffaf0;
+}
+
+a:hover{
+    text-decoration:none;
+}
+
+header nav, header .category_list {
+    background-color: #c9df8a;
+}
+
+header nav .menu-icon {
+    cursor: pointer;
+}
+
+header nav .menu-icon .cart{
+    width: 36px;
+    height: 32px
+}
+
+#search {
+    border-radius: 25px;
+    border: 1px solid #ef8341;
+    background-color: #fffaf0;
+    width: 29em;
+    margin-right: 10px;
+}
+
+nav {
+    color: #ef8341;
+    background-color: #c9df8a !important;
+}
+
+
+nav .rightMenu > div {
+    margin: 0 10px;
+}
+
+nav .navMenu {
+    text-align: center
+}
+
+nav .navMenu .rightMenu > div {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#searchBox button {
+    background-color: #ef8341;
+    border-radius: 100%;
+    color: #fff;
+}
+
+header nav .menu-icons .menu-icon {
+    margin: 0 1em;
+    color: #ef8341;
+    position: relative;
+}
+
+header nav .menu-icon .menu-item-count {
+    text-align: center;
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    font-size: 9px;
+    font-weight: bold;
+}
+
+header nav .navbar-brand img {
+    width: 100px;
+}
+
+footer img {
+    width: 150px
+}
+
+header nav .user .user-img {
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/profile_pic.jpg);
+    background-size: cover;
+    border-radius: 100%;
+}
+
+header nav {
+    text-transform: uppercase;
+}
+
+#navToggler i{
+    transition: transform 100ms linear;
+}
+
+#navToggler i.active {
+    transform: rotate(45deg);
+}
+
+#navbarSupportedContent li.nav-item .dropdown > a.active {
+    color: #da6c28 !important;
+    font-weight: bold;
+}
+
+nav .rightSide {
+    display: flex;
+}
+
+nav .rightSide .subgrp{
+    display: flex;
+    align-items: center;
+}
+
+.dropbtn {
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+  
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu a::after {
+    transform: rotate(-90deg);
+    position: absolute;
+    right: 6px;
+    top: .8em;
+}
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-left: .1rem;
+    margin-right: .1rem;
+}
+
+#carouselExampleCaptions{
+    height: 430px;
+}
+
+section i.favoriteItem {
+    position: absolute;
+    right: 0.5em;
+    top: 0.5em;
+    font-size: 1.5em;
+    color: #ff0000e6;
+}
+
+section .banner-slider .carousel .carousel-indicators li {
+    margin: 0 5px;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+}
+
+section .banner-slider .carousel .carousel-inner {
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+section .banner-slider .carousel .carousel-controller {
+    position: absolute;
+    top: 50%;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #fff;
+    background-color: #ef8341;
+    opacity: 1;
+}
+
+section .banner-slider .carousel .carousel-inner .carousel-item {
+    position: relative;
+}
+
+section .banner-slider .carousel .carousel-inner .carousel-item button {
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+    background-color: #ef8341;
+    color: #fff;
+    font-weight: bold;
+    z-index: 999;
+}
+
+
+section .banner-slider .carousel .carousel-inner .carousel-item .banner-text {
+    position: absolute;
+    top: 10%;
+    right: 15%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+section .offers .offers-inner .offer-block .card, section .offers .offers-inner .offer-block img{
+    border-radius: 10px;
+}
+
+section .card img, .item-block .item-img img{
+    cursor: pointer;
+}
+
+section .offers .offers-inner .offer-block img {
+    height: 200px;
+}
+
+section .offers .offers-inner .offer-block .offer-percentage{
+    color: #518d52;
+    font-size: 0.8em;
+}
+
+section .offers .offers-inner .offer-block .offer-category-title{
+    /* position: absolute;
+    bottom: 0.5em;
+    left: 1em;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    -webkit-text-stroke: 0.5px black; */
+}
+
+section .offers .offers-inner .offer-block .card .card-body {
+    /* white-space: nowrap;
+    transform: rotate(90deg); */
+}
+
+section .offers .offers-inner .offer-block .offer-amount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: #fff;
+    /* background-color: #96cb7f !important; */
+}
+
+.slider-control {
+    position: absolute;
+    top: 50%;
+    padding: 10px;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background-color: #ef8341;
+    color: #fff;
+    cursor: pointer;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider-control-left {
+    left: 0;
+}
+
+.slider-control-right {
+    right: 0;
+}
+
+.new-arrivals .new-arrivals-inner {
+    padding: 2em;
+    background-color: #eeebe6;
+    position: relative;
+}
+
+.heading {
+    font-weight: bold;
+}
+
+.heading::after {
+    content: '';
+    display: block;
+    border: 4px solid black;
+    border-radius: 10px;
+    width: 2em;
+    margin-top: 0.5em;
+}
+
+.text-theme {
+    color: #ef8341;
+}
+
+.btn-theme {
+    color: #eee;
+    background-color: #ef8341;
+}
+
+.btn-theme:hover {
+    color: #eee;
+    background-color: #da6c28;
+}
+
+.btn-outline-theme {
+    border: 1px solid #ef8341;
+    color: #ef8341;
+}
+
+.btn-outline-theme:hover {
+    background-color: #ef8341;
+    color: #fff;
+}
+
+.input-theme, .input-theme:focus {
+    border-radius: 25px;
+    border: 1px solid #ef8341;
+    background-color: #fffaf0;
+}
+
+.new-arrivals .new-arrivals-inner .new-arrival-items, .best-offers .best-offers-inner, .top-brands .top-brands-inner, .arrived-today .arrived-today-inner ,.second-row .second-row-inner,.third-row .third-row-inner {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.new-arrivals .new-arrivals-inner a.see-more {
+    position: absolute;
+    bottom: 1em;
+    color: #ef8341;
+}
+
+.new-arrivals .new-arrivals-inner .new-arrival-block, .best-offers .best-offers-inner > div, .top-brands .top-brands-inner > div, .arrived-today .arrived-today-inner > div,.second-row .second-row-inner > div,.third-row .third-row-inner > div  {
+    display: inline-block;
+}
+
+.new-arrivals .new-arrivals-inner .card, .best-offers .best-offers-inner .card, .top-brands .top-brands-inner .card,.arrived-today .arrived-today-inner .card,.second-row .second-row-inner .card ,.third-row .third-row-inner .card {
+    margin: 0 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    /* height: 28rem; */
+    height: auto;
+    overflow: hidden;
+}
+
+.new-arrivals .new-arrivals-inner .card .card-footer, .best-offers .best-offers-inner .card .card-footer, .top-brands .top-brands-inner .card .card-footer, .arrived-today .arrived-today-inner .card .card-footer,.second-row .second-row-inner .card .card-footer, .categoryProduct .categoryProduct-inner .item-block .item-price, .favorites .favorites-inner .item-block .card-footer {
+    border-radius: 10px;
+    background-color: #ef8341;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+.new-arrivals .new-arrivals-inner .card .card-body p, .best-offers .best-offers-inner .card .card-body p, .top-brands .top-brands-inner .card .card-body p, .arrived-today .arrived-today-inner .card .card-body p,.second-row .second-row-inner .card .card-body p,.third-row .third-row-inner .card .card-body p  {
+    white-space: normal;
+}
+
+.new-arrivals .new-arrivals-inner .card .card-img-top, .best-offers .best-offers-inner .card .card-img-top, .top-brands .top-brands-inner .card .card-img-top, .arrived-today .arrived-today-inner .card .card-img-top ,.second-row .second-row-inner .card .card-img-top ,.third-row .third-row-inner .card .card-img-top {
+    height: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.categories .categories-inner .content .category-block {
+    margin: 1em;
+    height: 250px;
+    cursor: pointer;
+}
+
+.categories .categories-inner .content .category-block img{
+    border-radius: 10px;
+    box-shadow: 0 0 10px -4px gray;
+}
+
+.categories a.see-more, .mens-fashion a.see-more {
+    color: #ef8341;
+}
+
+.categories .categories-inner .content .category-block .category-title {
+    position: absolute;
+    bottom: 1em;
+    color: #fff;
+    font-weight: bold;
+    z-index: 1;
+    left: 2em;
+    font-size: 1.5em;
+    -webkit-text-stroke: 1px black;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer ul li a, footer ul li a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer .social-icons .social-icon {
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #ef8341;
+}
+
+footer .social-icons .social-icon a {
+    color: #fff;
+}
+
+footer > div {
+    padding: 3em 6em !important;
+}
+
+
+/* // Large devices (desktops, less than 1200px) */
+/* @media (max-width: 1199.98px) { ... } */
+
+/* // Medium devices (tablets, less than 992px) */
+/* @media (max-width: 991.98px) { ... } */
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .navMenu {
+        width: 100%;
+    }
+    nav .navMenu .rightMenu > div {
+        margin: 1em 10px;
+    }
+    nav .navMenu .rightMenu > div.login {
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+    }
+    nav .navMenu .rightMenu .dropdown .dropdown-menu-right {
+        position: relative  ;
+    }
+    section .banner-slider .carousel .carousel-inner .carousel-item .banner-text {
+        font-size: 1rem;
+        right: 5%;
+    }
+    section .banner-slider .carousel .carousel-inner .carousel-item button {
+        font-size: 10px;
+        width: auto;
+        height: auto;
+        padding: 5px;
+    }
+    section .banner-slider .carousel .carousel-indicators li {
+        width: 10px;
+        height: 10px;
+    }
+    section .banner-slider .carousel .carousel-indicators {
+        margin: 0;
+    }
+    section .banner-slider .carousel .carousel-controller {
+        width: 25px;
+        height: 25px;
+        font-size: 1em;
+    }
+    .productDescription .productDescription-inner .productDetails {
+        text-align: center;
+    }
+    .productDescription .productDescription-inner .productDetails .product_color_block .product_color_palette {
+        justify-content: center !important;
+    }
+    #productDescription .productDescription-inner .productImgGrp {
+        height: 400px;
+        width: 300px;
+        margin: 0 auto;
+    }
+    #productDescription .productDescription-inner .productImgGrp .productImgSubGrp .productImgSubGrp-img {
+        width: 4em;
+    }
+    #orders .orders-inner .order-block .product_details-inner, #return_product .return_product-inner .return-block .product_details-inner {
+        align-items: center;
+    }
+    section .offers .offers-inner .offer-block .card .card-body {
+        transform: none;
+        padding: 5px;
+    }
+    .new-arrivals .new-arrivals-inner .see-more {
+        position: absolute;
+        right: 0;
+    }
+    nav .rightSide {
+        flex-wrap: wrap;
+        justify-content: end;
+    }
+    nav .rightSide .subgrp{
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 5px 0;
+    }
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    #searchBox {
+        margin: 0 auto;
+        width: 100%;
+    }
+    #search {
+        width: 100%;
+    }
+    h1.main-heading {
+        font-size: 1.5rem;
+    }
+    section .banner-slider .carousel .carousel-inner .carousel-item button {
+        font-size: 5px;
+        width: auto;
+        height: auto;
+        padding: 2px;
+    }
+    section .offers .offers-inner .offer-block .card .card-body {
+        margin: 0;
+    }
+    section .offers .offers-inner .offer-block .offer-amount {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+    section .offers .offers-inner .offer-block .card, section .offers .offers-inner .offer-block img {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    footer .row > div {
+        text-align: center;
+    }
+    .categories .categories-inner .content .category-block {
+        height: 180px;
+    }
+    .categories .categories-inner .content .category-block .category-title {
+        font-size: 1em;
+        left: 3em;
+        bottom: 1.5em;
+    }
+    .new-arrivals .new-arrivals-inner > .row > .col-md-9 {
+        padding: 0;
+    }
+}
